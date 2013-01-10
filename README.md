@@ -2,7 +2,7 @@
 
 A small project I made to see who unfollowed me on Twitter.
 
-- `twitter_stats.py` checks if there are any unfollowers every 60 seconds.
+- `twitter_stats.py` checks if there are any unfollowers every 60 seconds and stores the stats in a persistent Python dictionary called `twitter_stats.db`
 - `web.py` serves the results from `localhost:5000`
 
 Follow all the steps below in order.
@@ -16,7 +16,7 @@ Follow all the steps below in order.
 
 1. Run `pip install -r requirements`
 
-## Setting Up the Application and Getting and Access Token From Twitter
+## Setting Up the Application and Getting an Access Token From Twitter
 
 1. Go to [https://dev.twitter.com/apps](https://dev.twitter.com/apps) and sign in
 2. Create an app (if you already have one skip to step 3)
