@@ -1,5 +1,8 @@
 # Settings
-update_interval = 60 # default: 60 seconds
+debug = True # If True, web.py shows detailed debugging messages
+server_ip = '127.0.0.1'
+server_port = 5000
+update_interval = 60 # 60 seconds
 
 # Enter your Twitter stuff here
 consumer_key='YOUR_CONSUMER_KEY'
