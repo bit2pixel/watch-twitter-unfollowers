@@ -1,3 +1,7 @@
+# Settings
+update_interval = 60 # default: 60 seconds
+
+# Enter your Twitter stuff here
 consumer_key='YOUR_CONSUMER_KEY'
 consumer_secret='YOUR_CONSUMER_SECRET'
 oauth_token='YOUR_GENERATED_OAUTH_TOKEN'

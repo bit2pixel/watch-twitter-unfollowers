@@ -1,4 +1,4 @@
-import yaml
+
 import time
 import shelve
 import datetime
@@ -75,7 +75,7 @@ def main():
 
     while True:
         twitter_stats.update_unfollower_stats()
-        time.sleep(10)
+        time.sleep(settings.update_interval)
 
 if __name__ == '__main__':
     main()
