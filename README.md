@@ -24,7 +24,7 @@ Follow all the steps below in order.
 4. Create an access token (if you already have an access token skip to step 5)
 5. Go to wherever you've cloned the repo from your console
 6. Open settings.py.example and fill the keys and tokens you've just got from Twitter
-7. Rename settings.py.example to settings.py
+7. Rename settings.py.example to settings.py `mv settings.py.example settings.py`
 
 ## Running
 
