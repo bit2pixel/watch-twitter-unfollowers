@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My unfollowers</title>
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css">
+        <style>
+            .unfollower_name {font-weight: bold;}
+            .latest-update {margin-bottom: 20px;}
+            .footer {margin-top: 20px;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>My Twitter Unfollowers</h2>
+            <span class="label latest-update">last check on {{storage.last_update}}</span>
+            {% for unfollower in storage.unfollowers %}
+                <div>
+                    <span class="unfollower_name">{{unfollower.screen_name}}</span>
+                    <span class="unfollower_timestamp">{{unfollower.timestamp}}</span>
+                <div>
+            {% endfor %}
+            <div class="footer">made by <a href="http://ren.io">ren.io</a>
+        </div>
+    </body>
+</html>
