@@ -12,7 +12,7 @@ A small project I made to see who unfollowed me on Twitter.
 
 ## Setting Up
 
-1. Go to [https://dev.twitter.com/apps](https://dev.twitter.com/apps)
+1. Go to [https://dev.twitter.com/apps](https://dev.twitter.com/apps) and sign in
 2. Create an app (if you already have one skip to step 3)
 3. Open your apps page
 4. Create an access token (if you already have an access token skip to step 5)
