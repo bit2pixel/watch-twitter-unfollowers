@@ -5,12 +5,18 @@ A small project I made to see who unfollowed me on Twitter.
 - `twitter_stats.py` checks if there are any unfollowers every 60 seconds.
 - `web.py` serves the results from `localhost:5000`
 
+Follow all the steps below in order.
+
 ## Cloning the repository
 
 1. Clone the repo `clone https://github.com/rcakirerk/watch-twitter-unfollowers.git`
 2. Go to the directory `cd watch-twitter-unfollowers`
 
-## Setting Up
+## Installing Requirements
+
+1. Run `pip install -r requirements`
+
+## Setting Up the Application and Getting and Access Token From Twitter
 
 1. Go to [https://dev.twitter.com/apps](https://dev.twitter.com/apps) and sign in
 2. Create an app (if you already have one skip to step 3)
