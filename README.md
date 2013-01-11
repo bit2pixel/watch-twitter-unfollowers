@@ -14,7 +14,7 @@ Follow all the steps below in order.
 
 ## Installing Requirements
 
-1. Run `pip install -r requirements`
+1. Run `sudo pip install -r requirements`
 
 ## Setting Up the Application and Getting an Access Token From Twitter
 
